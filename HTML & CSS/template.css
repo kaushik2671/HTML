@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+.header {
+    height: auto;
+    width: 30%;
+}
+
+.menubar {
+    height: auto;
+    width: 70%;
+    overflow: hidden;
+    margin-top: -8px;
+}
+
+.dropdown {
+    float: right;
+    margin-right: 375px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+
+.dropdowncontent {
+    display: none;
+}

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+
+header .logo {
+    width: 20%;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+header .logo a {
+    font-size: 30px;
+    color: black;
+    display: flex;
+
+}
+
+header .Menu {
+    width: 80%;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+}
+
+.menu ul li a {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.m {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.content {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
